@@ -23,13 +23,14 @@ Features
 - [x] transferOvo
 - [x] transferBank
 
-### Usage
+# Usage
 ```ruby
 require '../lib/Ovo'
 ```
 ##### Step 1
 ```ruby
 ovo = Namdevel::Ovo.new()
+
 # @Step 1 
 # @getRefId
 refId = ovo.login2FA('<phoneNumber>')
@@ -39,6 +40,7 @@ puts @refId
 ##### Step 2
 ```ruby
 ovo = Namdevel::Ovo.new()
+
 # @Step 2 
 # @getupdateAccessToken
 updateAccessToken = ovo.login2FAverify('<refId>','<otpCode>', '<phoneNumber>')
@@ -47,6 +49,8 @@ puts @updateAccessToken
 ```
 ##### Step 3
 ```ruby
+ovo = Namdevel::Ovo.new()
+
 # @Step 3
 # @getAuthToken
 # @return eyJhbGciOiJSUzI1NiJ9.eyJleHBpcn......
@@ -54,7 +58,7 @@ AuthToken = ovo.loginSecurityCode('<securityCode>', '<updateAccessToken>')
 @AuthToken = Namdevel::Response.new.geAuthToken(AuthToken)
 puts @AuthToken
 ```
-### Example
+# Example
 ```ruby
 require '../lib/Ovo'
 
