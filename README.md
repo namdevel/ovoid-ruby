@@ -31,7 +31,7 @@ Features
 
 # Usage
 ```ruby
-require '../lib/Ovo'
+require './lib/Ovo'
 ```
 ##### Step 1
 ```ruby
@@ -66,7 +66,7 @@ puts @AuthToken
 ```
 # Example
 ```ruby
-require '../lib/Ovo'
+require './lib/Ovo'
 
 # @see getAuthToken.rb to get Authorization Token
 # @1 = page , @10 = max result
