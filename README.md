@@ -1,4 +1,10 @@
 # Un-Official OVO API Wrapper for Ruby
+[![GitHub issues](https://img.shields.io/github/issues/namdevel/ovoid-ruby)](https://github.com/namdevel/ovoid-ruby/issues)
+[![GitHub forks](https://img.shields.io/github/forks/namdevel/ovoid-ruby)](https://github.com/namdevel/ovoid-ruby/network)
+[![GitHub stars](https://img.shields.io/github/stars/namdevel/ovoid-ruby)](https://github.com/namdevel/ovoid-ruby/stargazers)
+[![GitHub license](https://img.shields.io/github/license/namdevel/ovoid-ruby)](https://github.com/namdevel/ovoid-ruby/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fnamdevel%2Fovoid-ruby)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnamdevel%2Fovoid-ruby)
+
 Compliant with the March 19, 2020 OVO API update.
 
 Reference
