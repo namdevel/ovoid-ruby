@@ -50,6 +50,6 @@ module Namdevel
         return getMessage(response)
       end
     end
-    
+
   end
 end
