@@ -1,13 +1,13 @@
 require '../lib/Ovo'
 
 ovo = Namdevel::Ovo.new()
-# @Step 1 
+# @Step 1
 # @getRefId
 refId = ovo.login2FA('<phoneNumber>')
 @refId = Namdevel::Response.new.getRefId(refId)
 puts @refId
 
-# @Step 2 
+# @Step 2
 # @getupdateAccessToken
 updateAccessToken = ovo.login2FAverify('<refId>','<otpCode>', '<phoneNumber>')
 @updateAccessToken = Namdevel::Response.new.getupdateAccessToken(updateAccessToken)
